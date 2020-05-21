@@ -1,0 +1,326 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header style start*/
+.logo{
+    background: url(../images/asahi-technologies-logo.png) no-repeat;
+}
+.header-container {
+    padding: 2px 15px;
+}
+.header-container .logo{
+    background-position: 0 -74px;
+    width: 180px;
+    height: 60px;
+    display: block;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000000;
+    padding: 5px 1.5rem;
+    text-transform: uppercase;
+} 
+.navbar-nav .nav-item a.nav-link:hover {
+    background-color: #f2cb05;
+    border-radius: 5px;
+}
+.automation-header-section {
+    position: relative;
+    background-color: #343a40;
+    background: url(../images/automation-header-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 15rem;
+    text-align: center;
+    color: #ffffff;
+}
+.automation-header-section h1 {
+    font-size: 56px;
+    font-weight: 400;
+}
+.automation-header-section .sub-head{
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+.btn-white {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 8px 20px;
+    min-width: 300px;
+}
+.btn-white:hover {
+    color: #333333 !important;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+/* Header style end*/
+.automation-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.first-sub-head{
+    font-size: 26px;
+}
+.second-sub-head{
+    font-size: 27px;
+    font-weight: 500;
+    color: #003c79;
+}
+.automation-type-section{
+    background-color: #f1f3f3;
+    padding: 15px 20px;
+}
+.attended{
+    background: url(../images/attended-automation.png) no-repeat;
+    height: 350px;
+    width: 370px;
+    background-position: center;
+    background-size: 100% 80%;
+}
+.attended-icon{
+    background: url(../images/attended-icon.png) no-repeat;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    margin: auto;
+}
+.unattended{
+    background: url(../images/unattended-automation.png) no-repeat;
+    height: 350px;
+    width: 370px;
+    background-position: center;
+    background-size: 100% 80%;
+}
+.unattended-icon{
+    background: url(../images/unattended-icon.png) no-repeat;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    margin: auto;
+}
+.hybrid{
+    background: url(../images/hybrid-automation.png) no-repeat ;
+    height: 350px;
+    width: 370px;
+    background-position: center;
+    background-size: 100% 80%;
+}
+.hybrid-icon{
+    background: url(../images/hybrid-icon.png) no-repeat;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    margin: auto;
+}
+.iq-bots{
+    background: url(../images/iq-bots-automation.png) no-repeat;
+    height: 350px;
+    width: 370px;
+    background-position: center;
+    background-size: 100% 80%;
+}
+.iq-bots-icon{
+    background: url(../images/iq-bots-icon.png) no-repeat;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    margin: auto;
+}
+.automation-type-item {
+    width: 80%;
+    margin: 60px auto auto;
+    color: #ffffff;
+}
+.automation-type-item h3 {
+    font-size:18px;
+    margin-top: .5rem;
+}
+.automation-type-item .lead {
+    font-size: 17px;
+    color: #f1f3f3;
+    width: 86%
+}
+.automation-partner-section {
+    background-color: #000;
+    padding: 40px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.automation-partner-section .container{
+    padding: 0px 160px;
+}
+.partner-image {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    margin-right: 15px;
+}
+.partner-image img {
+    width: 185px;
+    height: 65px;
+}
+.automation-step-process-section {
+    padding: 25px 0px;
+}
+.automation-step-process-section h3 {
+    text-align: center;
+    margin: 20px 0px 30px;
+}
+.automation-step-process-section img {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+.automation-expertise-section {
+    background-color: #f1f5f5;
+    padding: 50px 25px;
+}
+.automation-expertise-section h3 {
+    text-align: center;
+    margin: 0px 0px 50px;
+}
+.automation-expertise-section .sub-head{
+font-size: 18px;
+}
+.automation-expertise-icon{
+    background: url(../images/expert-bg.png) no-repeat;
+    height: 150px;
+    width: 150px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.automation-expertise-item .lead {
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.automation-expertise-section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.automation-expertise-section ul li{
+    width: 150px;
+    text-align: center;
+    margin: 0 10px;
+}
+.automation-testimonial-section {
+    background-color: #f2cb05;
+    padding: 50px 25px;
+    min-width: 300px;
+}
+.carousel-inner{
+overflow: visible;
+}
+.testimonial-name .name {
+    color: #003c79;
+    display: block;
+}
+.carousel-item .container {
+    max-width: 850px;
+}
+.carousel-caption {
+    border: 1px solid #fff;
+    bottom: -20%;
+    color: #000;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+.automation-product-section{
+    background: url(../images/automation-product.png) no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 600px;
+    position: relative;
+}
+.product-header {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding: 25px 0px;
+}
+.product-details {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding: 25px 0px;
+}
+.product-details p{
+    font-size: 18px;
+}
+section.automation-contact-section {
+    background: url(../images/contact-bg.png);
+    background-size: cover;
+    background-color: #003c79;
+    min-height: 500px;
+    padding: 30px;
+}
+.contact-fields{
+    padding: 30px 25px;
+}
+.contact-fields .col {
+    padding: 0px 50px;
+}
+input.form-control {
+    border-radius: 0;
+    height: 50px;
+}
+.form-action-submit {
+    text-align: center;
+}
+.btn-submit {
+    padding: 4px 30px;
+    background-color: #f2cb05;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 30px;
+}
+ul.list-unstyled {
+    line-height: 30px;
+}
+footer .logo{
+    background-position: 0 0;
+    width: 180px;
+    height: 70px;
+    display: block;
+}
+.line-seprater:after {
+    content: '';
+    border: 1px solid yellow;
+    position: absolute;
+    right: 0;
+    height: 150px;
+    top: 0;
+}
+.p50{
+    padding-left: 30px;
+}
+.footer-section{
+    padding-left:50px ;
+    padding-right:50px ;
+}
